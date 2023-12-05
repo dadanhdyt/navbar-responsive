@@ -25,9 +25,13 @@ nav.navbar .nav-brand .nav-btn{
     aspect-ratio: 1/1;
     font-size: 25px;
 }
-nav.navbar .nav-menu{
+.nav-menu{
+    display: none;
     padding: 8px 10px;
     background-color: rgb(6, 6, 6);
+}
+.nav-menu.is-active{
+    display: block;
 }
 nav.navbar .nav-menu ul {
     display: flex;
